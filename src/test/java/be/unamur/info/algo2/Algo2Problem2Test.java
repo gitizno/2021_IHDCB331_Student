@@ -41,7 +41,7 @@ public class Algo2Problem2Test {
         Main main = new Main();
         String input = "src/test/resources/problem2/ProgrammationDynamique_3.2.txt";
         String[] result = main.problem_2(getFileText(input));
-        String[] s_result = {"8", "1", "3", "0"};
+        String[] s_result = {"10", "-1", "6, "-1"};
         assertThat("Testing size array", result.length == 4);
         assertThat("Testing value[0]", result[0].equals(s_result[0]));
         assertThat("Testing value[1]", result[1].equals(s_result[1]));
@@ -54,7 +54,7 @@ public class Algo2Problem2Test {
         Main main = new Main();
         String input = "src/test/resources/problem2/ProgrammationDynamique_3.2.txt";
         String[] result = main.problem_2_naive(getFileText(input));
-        String[] s_result = {"8", "1", "3", "0"};
+        String[] s_result = {"10", "-1", "6", "-1"};
         assertThat("Testing size array", result.length == 4);
         assertThat("Testing value[0]", result[0].equals(s_result[0]));
         assertThat("Testing value[1]", result[1].equals(s_result[1]));

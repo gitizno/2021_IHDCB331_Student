@@ -7,7 +7,7 @@ public class Main {
         System.out.println("===");
         System.out.println(s_file);
         System.out.println("===");
-        String[] s_tmp = {"Goku", "Piccolo", null, "Gohan"};
+        String[] s_tmp = {"22", "42", "0", "15"};
         //String[] s_tmp = null;
         return s_tmp;
     }
@@ -17,7 +17,7 @@ public class Main {
         System.out.println("===");
         System.out.println(s_file);
         System.out.println("===");
-        String[] s_tmp = {"Goku", "Piccolo", null, "Gohan"};
+        String[] s_tmp = {"22", "42", "0", "15"};
         //String[] s_tmp = null;
         return s_tmp;
     }
@@ -26,7 +26,7 @@ public class Main {
         System.out.println("====");
         System.out.println(s_file);
         System.out.println("====");
-        String[] s_tmp = {"8", "1", "3", "0"};
+        String[] s_tmp = {"10", "-1", "6", "-1"};
         //String[] s_tmp = null;
         return s_tmp;
     }
@@ -35,7 +35,7 @@ public class Main {
         System.out.println("====");
         System.out.println(s_file);
         System.out.println("====");
-        String[] s_tmp = {"8", "1", "3", "0"};
+        String[] s_tmp = {"10", "-1", "6", "-1"};
         //String[] s_tmp = null;
         return s_tmp;
     }
